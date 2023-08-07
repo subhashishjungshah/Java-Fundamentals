@@ -24,6 +24,7 @@ public class Main {
         nums.add(55.2);
         System.out.println(nums);
 
+        System.out.println("THis works in BST");
         TreeSet<Double> treeSet = new TreeSet<>();
         treeSet.addAll(nums);
         System.out.println(treeSet);
